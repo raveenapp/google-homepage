@@ -1,6 +1,6 @@
 * {
     margin: 0px;
-    padding 0px;
+    padding: 0px;
 }
 
 
@@ -11,5 +11,39 @@ nav {
     align-content: center;
 }
 
-#navright {
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#bottomlinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#google-logo {
+    height: 92px;
+    width: 272px;
+    margin-left: auto;
+    margin-right: auto;
+}
+main {
+    width: 450px;
+    margin-top: 200px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#searchbar {
+    width: 400px;
+    height: 30px;
+    border-radius: 50px 50px 50px 50px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: white;
 }
